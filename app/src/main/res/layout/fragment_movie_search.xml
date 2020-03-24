@@ -17,10 +17,10 @@
             android:id="@+id/movieSearchEditText"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:background="@android:color/white"
             android:padding="@dimen/small_padding"
             android:layout_height="wrap_content"
-            android:hint="@string/search_movie"/>
+            android:hint="@string/search_movie"
+            android:background="@drawable/custome_border"/>
         <ImageButton
             android:id="@+id/movieSearchButton"
             android:layout_width="@dimen/normal_button"

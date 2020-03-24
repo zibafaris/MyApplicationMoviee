@@ -13,21 +13,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/mainBottomBar"/>
+        app:layout_constraintBottom_toTopOf="@id/mainBottomBar"
+        android:background="@drawable/custome_border"
+        />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/mainBottomBar"
         android:layout_width="match_parent"
         android:layout_height="58dp"
-        android:background="@color/colorAccent"
-        app:itemIconTint="@android:color/white"
-        app:itemTextColor="@android:color/white"
+        app:itemIconTint="@android:color/background_dark"
+        app:itemTextColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/main_bottom_menu" />
+        app:menu="@menu/main_bottom_menu"
+        android:background="@drawable/custome_border"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

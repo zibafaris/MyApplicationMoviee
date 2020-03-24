@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="wrap_content"
-    android:background="#B7E6E2"
     android:padding="@dimen/noraml_padding"
     android:layout_margin="8dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/custome_border">
 
     <ImageView
         android:id="@+id/movieIcon"
