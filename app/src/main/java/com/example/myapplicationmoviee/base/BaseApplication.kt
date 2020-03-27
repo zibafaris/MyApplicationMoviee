@@ -21,9 +21,8 @@ class BaseApplication : Application() {
         private lateinit var component: DataProvidersComponent
 
 
-        /**
-         * Provides DataProvidersComponent
-         */
+       // Provides DataProvidersComponent
+
         fun getDataProviderComponent(): DataProvidersComponent {
             return component
         }

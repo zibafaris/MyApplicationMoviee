@@ -16,9 +16,8 @@ import com.example.myapplicationmoviee.base.BaseViewModelFactory
 import com.example.myapplicationmoviee.base.di.DaggerDataRepositoryComponent
 import kotlinx.android.synthetic.main.fragment_movie_search.view.*
 
-/**
- * A simple [Fragment] subclass.
- */
+//A simple [Fragment] subclass.
+
 class MovieSearchFragment : Fragment() {
 
     private lateinit var movieSearchRecyclerView: RecyclerView

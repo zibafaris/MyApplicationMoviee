@@ -8,10 +8,8 @@ import dagger.Component
 import retrofit2.Retrofit
 import javax.inject.Singleton
 
-/**
- *
- * A dagger component to provide retrofit and room
- */
+// A dagger component to provide retrofit and room
+
 @Singleton
 @Component(modules = [RetrofitModule::class, RoomModule::class])
 interface DataProvidersComponent {

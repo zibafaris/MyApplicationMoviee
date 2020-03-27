@@ -7,9 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplicationmoviee.R
 
-/**
- * A simple [Fragment] subclass.
- */
+// A simple [Fragment] subclass.
+ 
 class MovieSavedFragment : Fragment() {
 
     override fun onCreateView(

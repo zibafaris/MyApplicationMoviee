@@ -1,7 +1,9 @@
 package com.example.myapplicationmoviee.features.movieSearch
 
+import android.os.Build
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplicationmoviee.R
 import com.example.myapplicationmoviee.pojo.MovieModel
@@ -18,6 +20,7 @@ class MovieRecyclerAdapter (private val onItemClick: (MovieModel)->Unit): Recycl
 
     override fun getItemCount(): Int = movieTMDBClass.movies?.size ?: 0
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onBindViewHolder(holder: MovieItemViewHolder, position: Int) {
         holder.bind(movieTMDBClass.movies!![position],onItemClick)
     }
